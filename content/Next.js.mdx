@@ -1,0 +1,94 @@
+---
+title: "Next.js"
+publishedAt: "2024-07-17"
+summary: "When to decide what to render where."
+---
+
+![Banner](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*6hbif5Ftd9KBPbaUftFXug.png)
+In this article, we will see what rendering means, client-side and server-side components, and different rendering strategies.
+
+Client refers to the device we use to access a website such as a mobile or a laptop, and the server is a computer where all our code and other configurations are stored and run to power websites. the client sends a request to the server and the server does the necessary process and responds to the client and display pages.
+
+In Next.js we have two different components: **the client component** and **the server component**.
+
+well… both of them react components but they differ in where they render, a client component renders on the client side (browser), and a server component renders on the server where our application is deployed. here you might ask why we would render such a small component on a server side. we can reduce the browser's task on JavaScript by responding to the HTML and CSS content so that they can immediately display the component which reduces the size of the JavaScript bundle and makes the initial page load faster. instead of fetching and displaying the data separately, we can fetch the data directly within the component which makes it a server-side component.
+
+## Advantages of Server-Side Components
+
+1. Small JavaScript bundle size: the size of the JavaScript code that is downloaded in the browser is significantly reduced.
+2. Enhanced SEO (Search engine Optimization)
+3. Faster initial page load for better accessibility and user experience
+4. Efficient utilization of server resources
+Now, The big question is When to decide what to render where
+
+Where to render each component depends on what the component does if the component requires a user interaction such as clicking buttons, entering information in input fields, triggering events, and using react hooks, it should be a client component. If a component doesn’t interact such as fetching data from a server, displaying static content, and performing server-side computations, it can be a server component.
+
+![fig1](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*J8oNJzzyCq8EdUT4rOzqMg.png)
+![fig2](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*DoESVybZPs5lmLdSrHkihw.png)
+
+In Next.js each component by default server-side components, 
+so how can we differentiate client-side components, it’s just requires adding “use client” at the top of the components.
+
+```jsx
+"use client";
+```
+
+*📌 Don’t include a server-side component on the client side!*
+In Next.js there are different ways things are displayed or in short strategies, the specific time they run( runtime or build time), and the specific place they work called the environment.
+
+## Rendering
+It’s the process of generating and creating the user interface from the code we write. We can use different strategies in one application.
+
+If the application is not intended for a wide audience we can use a client-side environment, which allows us to prioritize developing interactive features and functionalities without SEO.
+
+Once the compilation (converting from high-level language to low-level language) is done our application is ready for build and run time
+
+### Build time
+
+It’s a stage where applications are optimized and prepared for deployment with high performance.
+
+### Run time
+
+It’s the period after compilation where our application actively running, involving dynamic execution of the application’s piece of code. It handles user interaction, API requests, and input fields.
+
+### Run time Environment
+
+It’s a specific place where the execution of the application occurred. It provides various libraries, services, and runtime components to handle the execution process.
+
+this is where Node.js comes in it’s a runtime environment that allows developers to run JavaScript code outside browsers, similarly, Next.js provides two different runtime environments
+
+### 1. Node.js runtime
+default runtime environment which has access to all node.js API and ecosystem.
+
+### 2. Edge runtime
+
+A lightweight runtime based on Web APIs which has a limited feature of node.js
+
+we can choose which environment we want by including the below code on pages
+
+```jsx
+export const runtime = 'edge'
+```
+
+## Rendering Strategies
+### Static Site Generation
+It occurs at build time on the server, the content is generated and converted into HTML, CSS, and JS files. It cached and reused on subsequent requests which led to fast server delivery and low server load.
+
+The example use case is websites such as news and blogs, most of the content is static, once built we can ship it as it is whenever we want to change we can rebuild it.
+
+### Incremental Static Generation
+It allows us to update these static pages after building them without entirely rebuilding the site. It’s generated in response to a user request while other is generated only when needed. It reduces the build time and increases the overall performance.
+
+The example use case is a news and blog website, we can use SSG for the articles' detail pages and ISG for the article list
+
+### Server Side Rendering
+It enables us to generate dynamic content for each request and provide fresh and interactive experiences. It’s perfect for chat apps, and personalized content based on user data and requires real-time updates
+
+we have the freedom to choose any of these rendering techniques for any part of the page code.
+
+In Summary, look at this diagram 👇
+
+![fig3](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*HFF9M9CjnuY8Zepz764urQ.png)
+
+#### References for further reading
+1. [Less code, better UX: Fetching data faster with the Next.js 13 App Router](https://vercel.com/blog/nextjs-app-router-data-fetching)
