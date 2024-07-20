@@ -15,9 +15,10 @@ export const DATA = {
     `,
   avatarUrl: "/me.jpg",
   skills: [
-    "React",
     "Next.js",
+    "React",
     "Typescript",
+    "JavaScript",
     "Node.js",
     "MySQL",
     "Postgres",
@@ -176,7 +177,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        `https://www.dropbox.com/scl/fi/g0fwjplnyzy3p9nxie90b/nike.mp4?rlkey=djvrqusko7j2r02szkiwauuiq&st=qtey1ra0&raw=1
+        `https://www.dropbox.com/scl/fi/nvct0gbc6oskd3zqdcld0/devflow.mp4?rlkey=qysvpkfahdklujntt4kct2ood&st=gf7kx8g2&raw=1
 `,
     },
     {
