@@ -342,7 +342,7 @@ export const DATA = {
       dates: "Spring 2023",
       location: "Addis Ababa, Ethiopia",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+        "Developed a FullStack SaaS web Application which enables clients and different business owner who want to have a website can easily generate their websites with Content Management Systems which makes the website dynamic and flexible.",
       icon: "public",
       image:
         "https://media.licdn.com/dms/image/D560BAQHiQAK3YLiFGQ/company-logo_200_200/0/1707172083206/codeday_org_logo?e=2147483647&v=beta&t=asvC7kzYr7lSYHanrccDblBR89OZEjvM6Ivbg6h7jJ0",
