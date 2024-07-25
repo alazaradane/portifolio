@@ -89,7 +89,7 @@ export const DATA = {
       href: "https://et.linkedin.com/in/space-science-and-geospatial-institute-37b48623a",
       location: "Addis Ababa, Ethiopia",
       title: "Front-End Developer",
-      logoUrl: "https://data.moa.gov.et/uploads/group/2023-03-24-064216.989395SSGI.jpg",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN8F7yuZtk8WYu-WNDl_PhKBwOyktj60Mw7Q&s",
       start: "July 2023",
       end: "September 2023",
       description:
