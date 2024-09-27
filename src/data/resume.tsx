@@ -8,7 +8,7 @@ export const DATA = {
   location: "Addis Ababa, Ethiopia",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer. I love building things and helping people. Very active on Github.",
+    "Software Engineer. I love building things and helping people. Very active on LinkedIn and Github.",
   summary:
     `Software Engineer passionate about building full-stack JavaScript/TypeScript applications with React/Next.js , Node/Express, and SQL/NoSQL databases. Excited about contributing to the open-source community.
     As a core team member of SSGI graduate, I thrive in collaborative environments and am dedicated to driving innovation and excellence in my projects.
@@ -316,7 +316,43 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "NASA International Space App Challenge",
+      title: "Bronze Medalist @ OWAO (Open World Astronomy Olympaid)",
+      dates: "September 15th - 22th 2024",
+      location: "Sirius, Russia",
+      description:
+        "Proudly representing Ethiopia as one of five Ethiopia National Team in the Open World Astronomy Olympiad, I soared to success with a bronze medal.",
+      image:
+        "https://yt3.googleusercontent.com/ZS0gX6pEH1S145-iKSEBmas01qz5WfnwWlpf3T6P7NDpsvWx9_P2G-Ttdwa3V0czycLp6Wr5=s900-c-k-c0x00ffffff-no-rj",
+      mlh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK2W5HxQ5MsJPNBdDeSVD4oJ1XK-uS-G30DQ&s",
+      links: [
+        {
+          title:'OWAO',
+          href: "https://owao2024.siriusolymp.ru/en"
+        }
+      ],
+    },
+    {
+      title: "1st Place Winner of Youth Ambassador Digital Literacy and Advocacy Program ",
+      dates: "July 25th - September 14th 2024",
+      location: "Addis Ababa, Ethiopia",
+      description:
+        "Organized by ENGethiopia and Meta. In my team I have created awerness on digital literacy through training and workshop, lauching first DLO (Digital Literacy Olympaid) in ethiopia, creating social media content and reach over 55K+ youths through the overall advocacy program.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS476Bi3K6KtF3iHflMzRMtDHuwbzVO85h30A&s",
+      mlh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK2W5HxQ5MsJPNBdDeSVD4oJ1XK-uS-G30DQ&s",
+      links: [
+        {
+          title:'ENGethiopia',
+          href: "https://engethiopia.com"
+        },
+        {
+          title:'Prime',
+          href: "https://primeengethiopia.vercel.app"
+        },
+      ],
+    },
+    {
+      title: "African finalist on NASA International Space App Challenge 2023",
       dates: "October 7th - 8th 2023",
       location: "Addis Ababa, Ethiopia",
       description:
@@ -327,7 +363,7 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Addis Teencode",
+      title: "2nd place winner on Addis Teencode",
       dates: "June 8th - 9th, 2024",
       location: "Addis Ababa, Ethiopia",
       description:
@@ -338,7 +374,7 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Codeday",
+      title: "1st place winner on Codeday Hackathon 2023",
       dates: "Spring 2023",
       location: "Addis Ababa, Ethiopia",
       description:
@@ -349,16 +385,28 @@ export const DATA = {
       links: [],
     },
     {
-      title: "BITS Hackathon",
+      title: "Incubator project winner at BITS Hackathon 2023",
       dates: "October 21st - 22nd, 2023",
       location: "Addis Ababa, Ethiopia",
       description:
-        "Developed a full stack stock web application for business which enables them to manage their customers, warehouses, product, analysis thier revnue and much more  .",
+        "Developed a full stack stock web application for business which enables them to manage their customers, warehouses, product, analysis thier revnue and much more.",
       image:
         "https://www.bitscollege.edu.et/wp-content/uploads/2022/08/output-onlinepngtools44.png",
       links: [
       ],
     },
+    {
+      title: "Pathways To Space Program",
+      dates: "March 10 - July 10, 2024",
+      location: "Addis Ababa, Ethiopia",
+      description:
+        "Organized by Boeing, FASESA, and SSGI. I built and tested a satellite prototype, participated in first high-altitude balloon launches in africa over 98,000ft, and designed mission patches in a hands-on space engineering experience. I worked alongside students Tanzania and Nigeria, shaping my aspirations in the space industry.",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4D0BAQGav50SE2J_LQ/company-logo_200_200/company-logo_200_200/0/1707339832654/officialfasesa_logo?e=2147483647&v=beta&t=jNB0YJdC2vYsZUfp8uxL7ctaY7WhIwFLUGP9Q985y1k",
+      links: [
+      ],
+    },
+
     {
       title: "International Maarif Science Fair",
       dates: "May 21st - 22nd, 2024",
@@ -379,6 +427,25 @@ export const DATA = {
       image:
         "data:image/png;base64,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",
       links: [
+      ],
+    },
+    {
+      title: "Data Science Summer School 2023",
+      dates: "August 14 - 25, 2023",
+      location: "Virtual",
+      description:
+        "Organized by Data Science Summer School and Hertie School Data Science Lab. Mathematical Approch on understanding Data Science and how Machine leaning Alorithsm work. Learn Calculus, Statstics, Probablity and Linear Algebra, fundametal of programming of python and R how they used in field of Data Science and Machine Learning.",
+      image:
+        "https://ds3.ai/img/ds3-log.png",
+      links: [
+        {
+          title:'DSSS',
+          href: "https://ds3.ai/"
+        },
+        {
+          title:'HSDSL',
+          href: "https://www.hertie-school.org/en/datasciencelab"
+        }
       ],
     },
     {
