@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description, 
-  author:[{
+  authors:[{
     name:'Alazar Adane',
     url:'https://github.com/alazaradane',
   }],
