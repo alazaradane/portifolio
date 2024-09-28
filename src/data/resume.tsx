@@ -460,7 +460,7 @@ export const DATA = {
       ],
     },
     {
-      title: "My Digital World ",
+      title: "My Digital World 2022 ",
       dates: "November 2022",
       location: "Online Conference",
       description:
