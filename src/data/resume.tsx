@@ -325,10 +325,7 @@ export const DATA = {
         "https://yt3.googleusercontent.com/ZS0gX6pEH1S145-iKSEBmas01qz5WfnwWlpf3T6P7NDpsvWx9_P2G-Ttdwa3V0czycLp6Wr5=s900-c-k-c0x00ffffff-no-rj",
       mlh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK2W5HxQ5MsJPNBdDeSVD4oJ1XK-uS-G30DQ&s",
       links: [
-        {
-          title:'OWAO',
-          href: "https://owao2024.siriusolymp.ru/en"
-        }
+        
       ],
     },
     {
@@ -341,14 +338,7 @@ export const DATA = {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS476Bi3K6KtF3iHflMzRMtDHuwbzVO85h30A&s",
       mlh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK2W5HxQ5MsJPNBdDeSVD4oJ1XK-uS-G30DQ&s",
       links: [
-        {
-          title:'ENGethiopia',
-          href: "https://engethiopia.com"
-        },
-        {
-          title:'Prime',
-          href: "https://primeengethiopia.vercel.app"
-        },
+        
       ],
     },
     {
@@ -438,14 +428,7 @@ export const DATA = {
       image:
         "https://ds3.ai/img/ds3-log.png",
       links: [
-        {
-          title:'DSSS',
-          href: "https://ds3.ai/"
-        },
-        {
-          title:'HSDSL',
-          href: "https://www.hertie-school.org/en/datasciencelab"
-        }
+        
       ],
     },
     {
