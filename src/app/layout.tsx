@@ -20,7 +20,10 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description, 
-  author:"Alazar Adane",
+  author:[{
+    name:'Alazar Adane',
+    url:'https://github.com/alazaradane',
+  }],
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
